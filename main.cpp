@@ -4,11 +4,11 @@
 *           slutförts så genomförs prediktion av alla indata inom ett angivet intervall,
 *           vilket skrivs ut i terminalen.
 *
-*           Kompilera koden och skapa en körbar fil döpt main med följande kommando:
-*           $ g++ *.cpp -o main -Wall
+*           I Windows, kompilera koden och skapa en körbar fil main.exe med följande kommando:
+*           $ g++ main.cpp lin_reg.cpp -o main.exe -Wall
 *
 *           Kör sedan programmet med följande kommando:
-*           $ ./main
+*           $ main.exe
 **************************************************************************************************/
 #include "lin_reg.hpp"
 
@@ -18,7 +18,7 @@
 *       lärhastighet på 1 %. Modellen testas sedan för indata inom intervallet [-10, 10] med
 *       en stegringshastighet på 0.5. Indata samt motsvarande predikterad utdata skrivs ut i 
 *       terminalen. Resultatet indikerar att modellen efter träning predikterar med en precision
-*       på 100 %, vilket innbär att träningen var lyckad.
+*       på 100 %, vilket innebär att träningen var lyckad.
 **************************************************************************************************/
 int main(void)
 {
